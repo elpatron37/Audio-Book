@@ -22,12 +22,12 @@ root.title("PDF to Audiobook")
 root.geometry("400x200")
 
 label = tk.Label(root, text="Select a PDF to convert to audio")
-label.pack(pady=20)
+label.pack()
 
 convert_button = tk.Button(root, text="Choose PDF", command=convert_pdf_to_audio)
-convert_button.pack(pady=10)
+convert_button.pack()
 
 status_label = tk.Label(root)
-status_label.pack(pady=10)
+status_label.pack()
 
 root.mainloop()
